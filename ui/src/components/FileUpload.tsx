@@ -46,7 +46,9 @@ export default function FileUpload({ onFileUpload, isUploading }: FileUploadProp
         </div>
         <p className="text-lg font-medium">Drag & drop a file here, or click to select</p>
         <p className="text-sm text-gray-500">
-          Share any file with your peers securely
+          Accepted file types: <strong>.txt</strong>, <strong>.jpeg</strong>, <strong>.img</strong>, <strong>.pdf</strong>.<br />
+          Maximum file size: <strong>10 MB</strong>.<br />
+          Uploading files larger than 10 MB is not recommended and may result in failure.
         </p>
       </div>
     </div>
